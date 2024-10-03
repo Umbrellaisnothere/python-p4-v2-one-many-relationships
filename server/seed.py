@@ -32,3 +32,4 @@ with app.app_context():
     )
     db.session.add_all([uri_onboarding, tristan_onboarding])
     db.session.commit()
+    print("Database seeded successfully!")
